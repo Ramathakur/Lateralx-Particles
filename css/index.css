@@ -19,6 +19,43 @@
 
 /*------------------------ 1 Body and Core Css ------------------------*/
 
+
+.cbp-item{
+    perspective: 5000px; transform-style: preserve-3d; width: 309px; 
+}
+
+#a{
+    left: 0px; top: 0px;
+}
+#b{
+    top: 0px; left: 330px;
+}
+#c{
+    top: 0px; left: 660px;
+}
+
+#d{
+    left: 0px; top: 370px;
+}
+#e{
+    left: 330px; top: 300px;
+}
+#f{
+    left: 660px; top: 350px;
+}
+#g{
+    left: 0px; top: 620px;
+}
+#h{
+    left: 330px; top: 550px;
+}
+#i{
+    left: 660px; top: 670px;
+}
+
+#grid-container{
+    height: 1020px;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 170px;
@@ -761,7 +798,6 @@ header.white .nav-icon span {
     margin-right: auto;
 
 }
-
 
 .tweet ul {
     width: 99999px;
@@ -1802,19 +1838,16 @@ textarea.form-message{
 }
 
 
-@media (min-width: 360px) {
+@media (max-width: 480px) {
 
     header {
         padding: 16px;
     }
-.cbp-l-loadMore-defaultText{
-    font-size: 30px;
-    margin-top:10px ;
-    margin-bottom: 10px;
-}
+
     .portfolio .portfolio-filter {    
         margin-top: 0;
         margin-bottom: 15px;
+        float: left;
         transform: rotate(0); 
         margin-bottom: 32px;
         margin-left: 5px;
@@ -1822,22 +1855,9 @@ textarea.form-message{
         left: 0;
         top: 0;
         z-index: 10;
-        font-size: 80px;
-    }
-    .top_90 {
-        margin-top: 200px;
     }
 
-    .cbp-l-loadMore-button {
-        font-size: 80px;
-        width: 100%;
-        margin-top: 50px;
-    }
-    .portfolio-filter .row{
-        width:100%;
-        font-size: 100%;
-    }
-    
+
 
     .titlebar .page-title, .titlebar .page-title span {
     font-size: 30px;
@@ -1895,47 +1915,15 @@ textarea.form-message{
   
     footer .copyright{
         text-align: center;
-        margin-right: 20px;
-        margin-top: 50px;
-        margin-left: 300px;
-        font-size: 200%;
-        font-weight: 200px;
-
-    }
-    
-    footer p{
-        font-size: 20px;
-    }
-
-    footer{
-        height: 300px;
-    }
-
-    footer .getintouch{
-        text-align: center;
-        margin-right: 10px;
-        margin-top: 80px;
-        margin-left: 0px;
-        font-size: 40px;
-
     }
 
     body {
         font-family: 'Montserrat', sans-serif;
         padding-bottom: 218px;
-        width: 100%;
     }
 
     footer .social {
         padding-bottom: 10px;
-        margin-right: -330px;
-        font-size: 35px;
-
-    }
-
-    .fab{
-        font-size: 35px;
-
     }
 
     .widget-twitter, .tweet ul li  {
@@ -1944,52 +1932,27 @@ textarea.form-message{
 
     .tweet ul li  {
         margin-top: 5px;
-        font-size: 35px;
+        font-size: 12.5px;
     }
 
     .classic-title {
-        font-size: 45px;
-        font-weight: 600;
-        margin-top: 100px;
-        margin-bottom: 20px;
-        width:100% ;
+        font-size: 20px;
     }
 
-    .tweet{
-        width: 100%;
-        font-size: 25px;
-
-    }
     .widget-twitter .twitter-account{
         margin-top: 19px;
         display: block;
     }
-    .widget-twitter {
-        width:350px;
-        font-size: 35px;
-
-    }
 
     .home .home-content .hero-title {
-        font-size: 100px;
-        letter-spacing: -1px;
-        line-height: 80px;
-        margin-top: 400px;
-    }
-
-    .home{
-        margin-top: 400px;
-        margin-bottom: 350px;
-   
-    }
-
-    .portfolio-filter row{
-        font-size: 0px;
-    }
-    .home .home-content p {
         font-size: 40px;
-        margin-top: 50px;
+        letter-spacing: -1px;
+        line-height: 39px;
+    }
 
+    .home .home-content p {
+        font-size: 15px;
+        margin-top: 11px;
     }
 
     .home .home-content .social {
@@ -1999,7 +1962,6 @@ textarea.form-message{
     .cont {
         width: 90%;
         margin-left:5%;
-
     }
 
     .news-article .title {
@@ -2064,17 +2026,51 @@ textarea.form-message{
 
     .wrapper {
         padding-bottom: 60px;
-        width:100% ;
     }
 
-  .cbp-l-loadMore-button {
-      font-size: 80px;
-      margin-bottom: 100px;
-  }
+
+    .cbp-item{
+        perspective: 5000px; transform-style: preserve-3d; width: 309px; 
+    }
+    
+    #a{
+        left: 0px; top: 0px;
+    }
+    #b{
+        left: 0px; top: 391px;
+    }
+    #c{
+        left: 0px; top: 757px;
+    }
+    
+    #d{
+        left: 0px; top: 1148px;
+    }
+    #e{
+        left: 0px; top: 1420px;
+    }
+    #f{
+        left: 0px; top: 1692px;
+    }
+    #g{
+        left: 0px; top: 2048px;
+    }
+    #h{
+        left: 0px; top: 2456px;
+    }
+    #i{
+        left: 0px; top: 2864px;
+    }
+    
+    
+#grid-container{
+        height: 3170px;
+    }
+    
 }
 
 
-/* index.css */
+
 
 
 
