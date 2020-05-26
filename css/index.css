@@ -20,6 +20,29 @@
 /*------------------------ 1 Body and Core Css ------------------------*/
 
 
+
+
+#word{
+    color: #000;
+    font-weight: 900;
+margin-left: 130px;
+}
+/* .header-sub-title {
+      font-family: "Courier";
+    }  */
+    .header-sub-title blink{
+        color: blanchedalmond;
+    }
+
+ 
+@keyframes blink{
+  to { opacity: .1; }
+} 
+.flex {
+	display: flex;
+}
+
+
 .cbp-item{
     perspective: 5000px; transform-style: preserve-3d; width: 309px; 
 }
@@ -35,22 +58,22 @@
 }
 
 #d{
-    left: 0px; top: 370px;
+    left: 0px; top: 230px;
 }
 #e{
-    left: 330px; top: 300px;
+    left: 330px; top: 210px;
 }
 #f{
-    left: 660px; top: 350px;
+    left: 660px; top: 310px;
 }
 #g{
-    left: 0px; top: 620px;
+    left: 0px; top: 640px;
 }
 #h{
-    left: 330px; top: 550px;
+    left: 330px; top: 420px;
 }
 #i{
-    left: 660px; top: 670px;
+    left: 660px; top: 800px;
 }
 
 #grid-container{
@@ -1838,7 +1861,7 @@ textarea.form-message{
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
 
     header {
         padding: 16px;
@@ -2037,36 +2060,40 @@ textarea.form-message{
         left: 0px; top: 0px;
     }
     #b{
-        left: 0px; top: 391px;
+        left: 0px; top: 230px;
     }
     #c{
-        left: 0px; top: 757px;
+        left: 0px; top: 440px;
     }
     
     #d{
-        left: 0px; top: 1148px;
+        left: 0px; top: 750px;
     }
     #e{
-        left: 0px; top: 1420px;
+        left: 0px; top: 1150px;
     }
     #f{
-        left: 0px; top: 1692px;
+        left: 0px; top: 1360px;
     }
     #g{
-        left: 0px; top: 2048px;
+        left: 0px; top: 1848px;
     }
     #h{
-        left: 0px; top: 2456px;
+        left: 0px; top: 2256px;
     }
     #i{
-        left: 0px; top: 2864px;
+        left: 0px; top: 2764px;
     }
     
     
 #grid-container{
-        height: 3170px;
+        height: 3000px;
     }
     
+    .flex{
+        margin-left:-60px;
+        margin-bottom: -10px;
+    }
 }
 
 
