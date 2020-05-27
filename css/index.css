@@ -44,7 +44,7 @@ margin-left: 130px;
 
 
 .cbp-item{
-    perspective: 5000px; transform-style: preserve-3d; width: 309px; 
+    perspective: 5000px; transform-style: preserve-3d; width: 288px; 
 }
 
 #a{
@@ -2028,7 +2028,7 @@ textarea.form-message{
     }
 
     .home .home-content .social {
-        display: none;
+        display: inline-block;
     }
 
     .cont {
