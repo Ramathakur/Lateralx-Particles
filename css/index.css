@@ -2024,13 +2024,18 @@ textarea.form-message{
 
     .home .home-content p {
         font-size: 15px;
-        margin-top: 11px;
+        margin-top: 18px;
     }
 
     .home .home-content .social {
         display: inline-block;
+        margin-right: 0px;
     }
 
+    .social{
+        margin-right: -100px;
+
+    }
     .cont {
         width: 90%;
         margin-left:5%;
@@ -2145,12 +2150,49 @@ textarea.form-message{
         margin-bottom: -10px;
     }
 
+
+    .home .home-content .social{
+        right: 0;
+        top: 0;
+        position: absolute;
+        top: 45%;
+        -webkit-transform: translateY(-60%);
+        transform: translateY(-60%);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-right: -155px;
+        z-index: 6;
+    }
+    
+    .home .home-content .social a{
+        display: block;
+        color: #000;
+        font-size: 13px;
+        margin-top: 10px;
+        float: left;
+        margin-right: 15px;
+        -webkit-transition: all ease 0.3s;
+        transition: all ease 0.3s;    
+        font-weight: 600;
+    }
+    
+    
+    .home .home-content .social a.text{
+        margin-right: 0;
+    }
+    
+    .home .home-content .social a i{
+        -webkit-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+    }
+    
     .home .home-content .social a:hover i{
         -webkit-transform: rotate(-90deg);
         transform: rotate(-90deg);
         -webkit-transition: all ease 0.3s;
         transition: all ease 0.3s;
     }
+    
     
 }
 
