@@ -2144,6 +2144,14 @@ textarea.form-message{
         margin-left:-60px;
         margin-bottom: -10px;
     }
+
+    .home .home-content .social a:hover i{
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        -webkit-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+    }
+    
 }
 
 
