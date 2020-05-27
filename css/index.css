@@ -1737,7 +1737,7 @@ textarea.form-message{
 
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
     header {
         padding: 18px;
@@ -1858,10 +1858,59 @@ textarea.form-message{
         height: 370px;
     }
 
+    
+    .cbp-item{
+        perspective: 3000px; transform-style: preserve-3d; width: 330px; 
+    }
+    
+    #a{
+        left: 0px; top: 0px;
+    }
+    #b{
+        left: 350px; top: 0px;
+    }
+    #c{
+        left: 350px; top: 220px;
+
+    }
+    
+    #d{
+        left: 0px; top: 460px;
+    }
+    #e{
+        left: 0px; top: 240px;
+    }
+    #f{
+        left: 350px; top: 540px;
+    }
+    #g{
+        left: 0px; top: 900px;
+    }
+    #h{
+        left: 350px; top: 1060px;
+    }
+    #i{
+        left: 0px; top: 1340px;
+    }
+    
+    
+#grid-container{
+        height: 1700px;
+    }
+    
+    .flex{
+        margin-left:-35px;
+        margin-top: 0px;
+    }
+    .header-sub-title{
+        margin-top: 0px;
+ 
+    }
+
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
 
     header {
         padding: 16px;
@@ -2088,6 +2137,7 @@ textarea.form-message{
     
 #grid-container{
         height: 3000px;
+        width: 320px;
     }
     
     .flex{

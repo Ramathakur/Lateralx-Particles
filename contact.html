@@ -1,26 +1,41 @@
 <html>
     <head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- Google Web fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
-<!-- Font icons -->
-<link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="icon-fonts/flaticon/flaticon.css">
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link href=css/fontawesome.css" rel="stylesheet">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/contact.css">
-	
-<!--for canvas particles.JS-->
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
-
+        <title>Gorge Portfolio Template</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Gorge Portfolio Template">
+        <meta name="keywords" content="personal, portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Google Web fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+     <!-- Font icons -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.9.3/hamburgers.css" rel="stylesheet"/>
+    
+     <link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css">
+     <link rel="stylesheet" href="icon-fonts/flaticon/flaticon.css">
+     <!-- Stylesheets -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/cubeportfolio.min.css">
+     <link rel="stylesheet" href="css/owl.theme.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+     <!--for canvas particles.JS-->
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" integrity="sha256-ImQvICV38LovIsvla2zykaCTdEh1Z801Y+DSop91wMU=" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://www.mycashflow.online/cdn/assets/global/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js">
+    
+    
+     <!--content style-->
+     <link rel="stylesheet" href="css/index.css"> 
+    
+     <link rel="stylesheet" href="css/red.css">
+    
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+     
 </head>
 <style>
      .Right-head{
@@ -34,11 +49,8 @@
    
     
 </style>
-<header>
-    <h3 class="Right-head"> LateralX</h3>
-   </header>
 
-<body>
+<body class="full-open">
     
     <!-- PRELOADER -->
     <div class="preloader" style="display: none;">
@@ -57,21 +69,28 @@
         </div>
     </header>
 
+    <script>
+        $('header').on('click', function(){
+  $('body').toggleClass('full-open');
+});
+    </script>
 
     <!-- FULL MENU -->
     <div class="full-menu">
-
             <div class="full-inner row">
                 <nav class="col-md-8">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
+                        <li><a href="Aboutus.html">About us</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="col-md-4 full-contact">
                     <ul>
+                        <li class="title">Get in Touch</li>
+                        <li>hi@gorge.com</li>
+                        <li>
                             <div class="social">
                                 <a href="#"><i class="fab fa-facebook"></i>  </a>
                                 <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>  </a>
@@ -88,15 +107,15 @@
     <!-- SITE CONTENT -->
     <div class="wrapper">
         <section class="titlebar">
-            <h1 class="page-title"><span style="color:   #ea0026;">Contact </span>us</h1>
-            <div id="particles-js"><canvas class="particles-js-canvas-el" width="1600" height="300" style="width: 100%; height: 100%;"></canvas></div>
+            <h1 class="page-title"><span>Contact </span>us</h1>
+            <div id="particles-js"><canvas class="particles-js-canvas-el" width="1536" height="420" style="width: 100%; height: 100%;"></canvas></div>
         </section>
         
-        <hr style="width: 50%;">
+        <hr class="col-md-6 bottom_60">
 
         <div class="cont">
-            <section class="contact col-md-8 offset-md-2 top_90" >
-                <div class="contact-info text-center"style="text-align: center;">
+            <section class="contact col-md-8 offset-md-2 top_90">
+                <div class="contact-info text-center">
                     <p>1444 S. Alameda Street Los Angeles, California 90021 </p> 
                     <a href="hi@gorge.com">hi@gorge.com</a> 
                     <p>0800 123 456789</p>
@@ -107,14 +126,13 @@
                             <input class="inp" type="text" placeholder="Name">
                         </div>
                         <div class="col-md-6">
-                            <input class="inp" type="text" placeholder="Email" >
+                            <input class="inp" type="text" placeholder="Email">
                         </div>
-                    
                         <div class="col-md-12">
-                            <textarea placeholder="Your Message" rows="10" class="col-md-12 form-message" ></textarea>
+                            <textarea placeholder="Your Message" rows="6" class="col-md-12 form-message"></textarea>
                         </div>
                         <div class="col-md-12 text-center">
-                            <input type="submit" value="Submit" class="site-btn2" >
+                            <input type="submit" value="Submit" class="site-btn2">
                         </div>
                     </form>                    
                 </div>
@@ -129,10 +147,13 @@
     <footer>
        <div class="cont">
             <div class="row">
-                
+                <div class="col-md-4 col-sm-6 col-xs-12 copyright">
+                    <img src="images/logo.png" alt="">
+                    <p>© 2018 Gorge Creative Agency</p>
+                </div>
                 <div class="col-md-4 d-sm-none d-md-block">
                     <div class="social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i>  </a>
                         <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>  </a>
                         <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
                         <a href="#"><i class="fab fa-behance" aria-hidden="true"></i>  </a>
@@ -150,8 +171,6 @@
        <script src="js/particle.js"></script>
 
     </footer>
-    
-    
     </body>
     
 </html>
