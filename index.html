@@ -78,8 +78,52 @@
   $('body').toggleClass('full-open');
 });
     </script>
-
-  
+<!--  
+ <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("cbp-item");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("portfolio-filter");
+    var btns = btnContainer.getElementsByClassName("cbp-filter-item");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+     -->
     <!-- FULL MENU -->
     <div class="full-menu" >
         <div class="full-inner row" id="myNav">
@@ -132,7 +176,7 @@
                     <div class="social">
                     <a class="text">social links</a>
                     <div class="line"></div>
-                    <a href="#"><i class="fab fa-facebook"></i>  </a>
+                    <a href="#"><i class="fab fa-facebook" ></i>  </a>
                     <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i>  </a>
                     <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i>  </a>
                     <a href="#"><i class="fab fa-behance" aria-hidden="true"></i>  </a>
@@ -142,13 +186,13 @@
         </section>
 
 
-        <div class="cont" style="margin-top: -400px;">
+        <div class="cont" style="margin-top: -400px;" >
             <section id="portfolio" class="portfolio">
-                    <div class="portfolio-filter row">
-                        <div data-filter=".digital" class="cbp-filter-item">Digital Works</div>
-                        <div data-filter=".photography" class="cbp-filter-item">Photography</div>
-                        <div data-filter=".branding" class="cbp-filter-item">Branding</div>
-                        <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">All Works</div>
+                    <div class="portfolio-filter row" >
+                        <div data-filter=".digital" class="cbp-filter-item" onclick="filterSelection('digital')" >Digital Works</div>
+                        <div data-filter=".photography" class="cbp-filter-item" onclick="filterSelection('photography')">Photography</div>
+                        <div data-filter=".branding" class="cbp-filter-item" onclick="filterSelection('branding')">Branding</div>
+                        <div data-filter="*" class="cbp-filter-item cbp-filter-item-active" onclick="filterSelection('all')">All Works</div>
                     </div>
                        
                     <div id="grid-container" class="cbp cbp-ready"><div class="cbp-wrapper-outer" ><div class="cbp-wrapper">
@@ -233,14 +277,55 @@
                                 <div class="shine" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transform: translateZ(1px); z-index: 9;"></div></figure>
                             </a>
                         </div></div></div>
+ <!-- Item -->
+ <div class="row" style="margin-top: 300px;">
+
+    <div class="cbp-item branding" id="g"><div class="cbp-item-wrapper">
+        <a href="portfolio/work-5.html">
+            <figure class="fig" style="perspective: 3000px; transform-style: preserve-3d;">
+                <img src="img/13.jpeg" alt="">
+
+                <figcaption>
+                    <h3>Vrai Vodka</h3>
+                    <p>Branding </p>
+                </figcaption>
+            <div class="shine" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transform: translateZ(1px); z-index: 9;"></div></figure>
+        </a>
+    </div></div>
+    <!-- Item -->
+    <div class="cbp-item digital" id="h" ><div class="cbp-item-wrapper">
+        <a href="portfolio/work-4.html">
+            <figure class="fig" style="perspective: 3000px; transform-style: preserve-3d;">
+                <img src="img/17.jpeg" alt="">
+
+                <figcaption>
+                    <h3>Smart Wallet</h3>
+                    <p>Digital </p>
+                </figcaption>
+            <div class="shine" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transform: translateZ(1px); z-index: 9;"></div></figure>
+        </a>
+    </div></div>
+    <!-- Item -->
+    <div class="cbp-item branding" id="i" ><div class="cbp-item-wrapper">
+        <a href="portfolio/work-6.html">
+            <figure class="fig" style="perspective: 3000px; transform-style: preserve-3d;">
+                <img src="img/16.jpeg" alt="">
+
+                <figcaption>
+                    <h3>Motorcycles</h3>
+                    <p>Branding </p>
+                </figcaption>
+            <div class="shine" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transform: translateZ(1px); z-index: 9;"></div></figure>
+        </a>
+    </div></div></div>
 
                         <!-- Item -->
                         <div class="row">
 
-                        <div class="cbp-item branding" id="g" ><div class="cbp-item-wrapper">
+                        <div class="cbp-item branding" id="j" ><div class="cbp-item-wrapper">
                             <a href="portfolio/work-8.html">
                                 <figure class="fig" style="perspective: 3000px; transform-style: preserve-3d;">
-                                    <img src="img/13.jpeg" alt="">
+                                    <img src="img/20.jpeg" alt="">
 
                                     <figcaption>
                                         <h3>Racquel Natasha</h3>
@@ -250,10 +335,10 @@
                             </a>
                         </div></div>
                         <!-- Item -->
-                        <div class="cbp-item branding" id="h" ><div class="cbp-item-wrapper">
+                        <div class="cbp-item branding" id="k" ><div class="cbp-item-wrapper">
                             <a href="portfolio/work-7.html">
                                 <figure class="fig" style="perspective: 3000px; transform-style: preserve-3d;">
-                                    <img src="img/17.jpeg" alt="">
+                                    <img src="img/11.jpeg" alt="">
 
                                     <figcaption>
                                         <h3>Swacket</h3>
@@ -263,10 +348,10 @@
                             </a>
                         </div></div>
                         <!-- Item -->
-                        <div class="cbp-item branding" id="i" ><div class="cbp-item-wrapper">
+                        <div class="cbp-item branding" id="l" ><div class="cbp-item-wrapper">
                             <a href="portfolio/work-9.html">
                                 <figure class="fig" style="perspective: 3000px; transform-style: preserve-3d;">
-                                    <img src="img/16.jpeg" alt="">
+                                    <img src="img/4.jpg" alt="">
 
                                     <figcaption>
                                         <h3>The Gang</h3>
@@ -275,11 +360,12 @@
                                 <div class="shine" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transform: translateZ(1px); z-index: 9;"></div></figure>
                             </a>
                         </div></div>
+
                     </div></div></div></div>
                        
                     <!-- load more button -->
                     <div id="port-loadMore" class="cbp-l-loadMore-button top_120 bottom_90" >
-                        <a href="port.html" class="cbp-l-loadMore-link site-btn" rel="nofollow">
+                        <a href="#" class="cbp-l-loadMore-link site-btn" rel="nofollow">
                             <span class="cbp-l-loadMore-defaultText" id="z"></span>
                              <span class="cbp-l-loadMore-loadingText">Loading...</span>
                             <span class="cbp-l-loadMore-noMoreLoading"></span> 
@@ -405,14 +491,6 @@ typingEffect();
 );
 </script>
 
-<script>
-    var selector = '.nav-icon span';
-
-$(span).on('click', function(){
-    $(header).removeClass('active');
-    $(this).addClass('active');
-});
-</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.js" integrity="sha256-jEqo10iTX32Q7uCIFeaRkMBnlWgoqhaPsJ7ZUsBtqRc=" crossorigin="anonymous"></script>

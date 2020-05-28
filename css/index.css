@@ -73,11 +73,20 @@ margin-left: 130px;
     left: 330px; top: 420px;
 }
 #i{
-    left: 660px; top: 800px;
+    left: 660px; top: 765px;
+}
+#j{
+    left: 0px; top: 1020px;
+}
+#k{
+    left: 330px; top: 910px;
+}
+#l{
+    left: 660px; top: 950px;
 }
 
 #grid-container{
-    height: 1020px;
+    height: 1320px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -2029,11 +2038,11 @@ textarea.form-message{
 
     .home .home-content .social {
         display: inline-block;
-        margin-right: 0px;
+        margin-right: 50px;
     }
 
     .social{
-        margin-right: -100px;
+        margin-right: 100px;
 
     }
     .cont {
@@ -2138,10 +2147,18 @@ textarea.form-message{
     #i{
         left: 0px; top: 2764px;
     }
-    
+    #j{
+        left: 0px; top: 2948px;
+    }
+    #k{
+        left: 0px; top: 3250px;
+    }
+    #l{
+        left: 0px; top: 3730px;
+    }
     
 #grid-container{
-        height: 3000px;
+        height: 4000px;
         width: 320px;
     }
     
