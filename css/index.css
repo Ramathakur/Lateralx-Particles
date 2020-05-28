@@ -1902,9 +1902,19 @@ textarea.form-message{
         left: 0px; top: 1340px;
     }
     
+    #j{
+        left: 0px; top: 1550px;
+    }
+    #k{
+        left: 350px; top: 1610px;
+    }
+    #l{
+        left: 0px; top: 1880px;
+    }
+    
     
 #grid-container{
-        height: 1700px;
+        height: 2200px;
     }
     
     .flex{
@@ -2158,7 +2168,7 @@ textarea.form-message{
     }
     
 #grid-container{
-        height: 4000px;
+        height: 4100px;
         width: 320px;
     }
     
