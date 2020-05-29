@@ -58,7 +58,7 @@ margin-left: 130px;
 }
 
 #d{
-    left: 0px; top: 230px;
+    left: 0px; top: 350px;
 }
 #e{
     left: 330px; top: 210px;
@@ -67,7 +67,7 @@ margin-left: 130px;
     left: 660px; top: 310px;
 }
 #g{
-    left: 0px; top: 640px;
+    left: 0px; top: 730px;
 }
 #h{
     left: 330px; top: 420px;
@@ -76,7 +76,7 @@ margin-left: 130px;
     left: 660px; top: 765px;
 }
 #j{
-    left: 0px; top: 1020px;
+    left: 0px; top: 1110px;
 }
 #k{
     left: 330px; top: 910px;
@@ -85,7 +85,7 @@ margin-left: 130px;
     left: 660px; top: 950px;
 }
 #m{
-    left: 0px; top: 1310px;
+    left: 0px; top: 1400px;
 }
 #n{
     left: 330px; top: 1360px;
@@ -94,7 +94,7 @@ margin-left: 130px;
     left: 660px; top: 1310px;
 }
 #p{
-    left: 0px; top: 1650px;
+    left: 0px; top: 1620px;
 }
 #q{
     left: 330px; top: 1600px;
@@ -1770,6 +1770,9 @@ textarea.form-message{
         padding: 18px;
     }
   
+    .home .home-content .social .text {
+        margin-left: -0px;
+    }
     .home .home-content .hero-title {
         font-size: 70px;
         line-height: 64px;
@@ -1788,10 +1791,10 @@ textarea.form-message{
     .home .home-content .social a{
         display: block;
         color: #000;
-        font-size: 16px; 
+        font-size: 20px; 
         margin-top: 10px;
         float: left;
-        margin-right: 15px;
+        margin-right: 10px;
         -webkit-transition: all ease 0.3s;
         transition: all ease 0.3s;
         font-weight: 600;
