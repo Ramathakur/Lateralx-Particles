@@ -44,14 +44,14 @@ margin-left: 130px;
 
 
 .cbp-item{
-    perspective: 5000px; transform-style: preserve-3d; width: 288px; 
+    perspective: 3000px; transform-style: preserve-3d; width: 288px; ; 
 }
 
 #a{
     left: 0px; top: 0px;
 }
 #b{
-    top: 0px; left: 330px;
+    top: 0px; left: 320px;
 }
 #c{
     top: 0px; left: 660px;
@@ -84,9 +84,27 @@ margin-left: 130px;
 #l{
     left: 660px; top: 950px;
 }
+#m{
+    left: 0px; top: 1310px;
+}
+#n{
+    left: 330px; top: 1360px;
+}
+#o{
+    left: 660px; top: 1310px;
+}
+#p{
+    left: 0px; top: 1650px;
+}
+#q{
+    left: 330px; top: 1600px;
+}
+#r{
+    left: 660px; top: 1670px;
+}
 
 #grid-container{
-    height: 1320px;
+    height: 2000px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -1746,7 +1764,7 @@ textarea.form-message{
 
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 650px) {
 
     header {
         padding: 18px;
@@ -1759,13 +1777,26 @@ textarea.form-message{
 
     .home .home-content p {
         font-size: 20px;
-        margin-top: 24px;
+        margin-top: 10px;
     }
 
     .cont {
         width: 90%;
         margin-left: 5%;
     }
+
+    .home .home-content .social a{
+        display: block;
+        color: #000;
+        font-size: 16px; 
+        margin-top: 10px;
+        float: left;
+        margin-right: 15px;
+        -webkit-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+        font-weight: 600;
+    }
+    
 
     .portfolio .portfolio-filter {    
         margin-top: 0;
@@ -1869,52 +1900,74 @@ textarea.form-message{
 
     
     .cbp-item{
-        perspective: 3000px; transform-style: preserve-3d; width: 330px; 
+        perspective: 3000px; transform-style: preserve-3d; width: 280px; 
     }
     
     #a{
-        left: 0px; top: 0px;
+        left: -0px; top: 0px;
     }
     #b{
-        left: 350px; top: 0px;
+        left: 305px; top: 0px;
     }
     #c{
-        left: 350px; top: 220px;
+        left: 305px; top: 200px;
 
     }
     
     #d{
-        left: 0px; top: 460px;
+        left: -0px; top: 400px;
     }
     #e{
-        left: 0px; top: 240px;
+        left: -0px; top: 210px;
     }
     #f{
-        left: 350px; top: 540px;
+        left: 305px; top: 500px;
     }
     #g{
-        left: 0px; top: 900px;
+        left: -0px; top: 860px;
     }
     #h{
-        left: 350px; top: 1060px;
+        left: 305px; top: 1020px;
     }
+
     #i{
-        left: 0px; top: 1340px;
+        left: -0px; top: 1300px;
     }
     
     #j{
-        left: 0px; top: 1550px;
+        left: -0px; top: 1510px;
     }
     #k{
-        left: 350px; top: 1610px;
+        left: 305px; top: 1570px;
     }
     #l{
-        left: 0px; top: 1880px;
+        left: -0px; top: 1840px;
+    }
+    
+    
+    #m{
+        left: 305px; top: 2080px;
+    }
+    #n{
+        left: -0px; top:2240px;
+    }
+    #o{
+        left: 305px; top: 2470px;
+    }
+    
+    #p{
+        left: -0px; top: 2500px;
+    }
+    #q{
+        left: 305px; top: 2850px;
+    }
+    #r{
+        left: -0px; top:2810;
     }
     
     
 #grid-container{
-        height: 2200px;
+        height: 3250px;
     }
     
     .flex{
@@ -2166,9 +2219,27 @@ textarea.form-message{
     #l{
         left: 0px; top: 3730px;
     }
+    #m{
+        left: 0px; top: 4100px;
+    }
+    #n{
+        left: 0px; top: 4466px;
+    }
+    #o{
+        left: 0px; top: 4714px;
+    }
+    #p{
+        left: 0px; top: 5100px;
+    }
+    #q{
+        left: 0px; top: 5400px;
+    }
+    #r{
+        left: 0px; top: 5730px;
+    }
     
 #grid-container{
-        height: 4100px;
+        height: 6100px;
         width: 320px;
     }
     
@@ -2221,6 +2292,19 @@ textarea.form-message{
     }
     
     
+    .home .home-content .social a{
+        display: block;
+        color: #000;
+        font-size: 14px; 
+        margin-top: 10px;
+        float: left;
+        margin-right: 15px;
+        -webkit-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+        font-weight: 600;
+    }
+    
+
 }
 
 
