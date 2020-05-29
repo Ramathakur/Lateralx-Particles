@@ -138,16 +138,64 @@
       <script>
           $(document).ready(function(){
    
-   $("div.cbp-filter-item").click(
+   $("div.cbp-filter-item1").click(
    function(){
-       $(".cbp-item").fadeToggle(3000,function(){
-           $("button.toggle").css("color","#080")
-           
-       })
+        
+    $(".digital").fadeIn("fast");
+       $(".branding").fadeOut("fast");
+       $(".photography").fadeOut("fast");
+
+
    }
 );
 })
       </script>
+       <script>
+        $(document).ready(function(){
+ 
+ $("div.cbp-filter-item2").click(
+ function(){
+    $(".photography").fadeIn("fast");
+       $(".branding").fadeOut("fast");
+       $(".digital").fadeOut("fast");
+
+ }
+);
+})
+    </script> 
+    
+    <script>
+          $(document).ready(function(){
+   
+   $("div.cbp-filter-item3").click(
+   function(){
+        
+       $(".branding").fadeIn("fast");
+       $(".photography").fadeOut("fast");
+       $(".digital").fadeOut("fast");
+
+   }
+);
+})
+      </script>
+
+
+
+<script>
+    $(document).ready(function(){
+
+$("div.cbp-filter-item4").click(
+function(){
+  
+$(".digital").fadeIn("fast");
+ $(".branding").fadeIn("fast");
+ $(".photography").fadeIn("fast");
+
+
+}
+);
+})
+</script>
     <!-- FULL MENU -->
     <div class="full-menu" >
         <div class="full-inner row" id="myNav">
@@ -213,10 +261,10 @@
         <div class="cont" style="margin-top: -400px;" >
             <section id="portfolio" class="portfolio">
                     <div class="portfolio-filter row" >
-                        <div data-filter=".digital" class="cbp-filter-item"  >Digital Works</div>
-                        <div data-filter=".photography" class="cbp-filter-item">Photography</div>
-                        <div data-filter=".branding" class="cbp-filter-item">Branding</div>
-                        <div data-filter="*" class="cbp-filter-item cbp-filter-item-active">All Works</div>
+                        <div data-filter=".digital" class="cbp-filter-item1"  >Digital Works</div>
+                        <div data-filter=".photography" class="cbp-filter-item2 ">Photography</div>
+                        <div data-filter=".branding" class="cbp-filter-item3 ">Branding</div>
+                        <div data-filter="*" class="cbp-filter-item4 cbp-filter-item-active">All Works</div>
                     </div>
                        
                     <div id="grid-container" class="cbp cbp-ready"><div class="cbp-wrapper-outer" ><div class="cbp-wrapper">
