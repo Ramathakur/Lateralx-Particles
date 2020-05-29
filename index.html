@@ -78,6 +78,14 @@
   $('body').toggleClass('full-open');
 });
     </script>
+    
+    <script>
+        $('div .cbp-filter-item').click(function(){
+            $('div .cbp-filter-item').removeClass("active");
+            $(this).addClass("active");
+        });
+
+    </script>
 <!--  
  <script>
     filterSelection("all")
@@ -134,6 +142,7 @@
    function(){
        $(".cbp-item").fadeToggle(3000,function(){
            $("button.toggle").css("color","#080")
+           
        })
    }
 );
@@ -371,7 +380,7 @@
 
                     <figcaption>
                         <h3>Fashion</h3>
-                        
+
                         <p>Branding </p>
                     </figcaption>
                 <div class="shine" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transform: translateZ(1px); z-index: 9;"></div></figure>

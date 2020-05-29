@@ -430,7 +430,7 @@ header{
 .home .home-content .social a{
     display: block;
     color: #000;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: 10px;
     float: left;
     margin-right: 15px;
@@ -2268,7 +2268,7 @@ textarea.form-message{
     .home .home-content .social a{
         display: block;
         color: #000;
-        font-size: 13px;
+        font-size: 18px;
         margin-top: 10px;
         float: left;
         margin-right: 15px;
@@ -2298,7 +2298,7 @@ textarea.form-message{
     .home .home-content .social a{
         display: block;
         color: #000;
-        font-size: 14px; 
+        font-size: 16px; 
         margin-top: 10px;
         float: left;
         margin-right: 15px;
