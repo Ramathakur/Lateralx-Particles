@@ -2266,7 +2266,7 @@ textarea.form-message{
     }
     
     .home .home-content .social a{
-        display: block;
+        display: none;
         color: #000;
         font-size: 18px;
         margin-top: 10px;
@@ -2296,7 +2296,7 @@ textarea.form-message{
     
     
     .home .home-content .social a{
-        display: block;
+        display: none;
         color: #000;
         font-size: 16px; 
         margin-top: 10px;
