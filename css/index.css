@@ -103,8 +103,57 @@ margin-left: 130px;
     left: 660px; top: 1670px;
 }
 
+#aa{
+    left: 0px; top: 1900px;
+}
+#bb{
+    top: 1900px; left: 320px;
+}
+#cc{
+    top: 1990px; left: 660px;
+}
+
+#dd{
+    left: 0px; top: 2350px;
+}
+#ee{
+    left: 320px; top: 2350px;
+
+}
+#ff{
+    left: 660px; top: 2160px;
+
+}
+#gg{
+    left: 0px; top: 2800px;
+}
+#hh{
+    left: 320px; top: 2730px;
+}
+#ii{
+    left: 660px; top: 2610px;
+}
+#jj{
+    left: 0px; top: 3110px;
+}
+#kk{
+    left: 320px; top: 3110px;
+}
+#ll{
+    left: 655px; top: 2970px;
+}
+#mm{
+    left: 320px; top: 3340px;
+}
+#nn{
+    left: 660px; top: 3410px;
+}
+#oo{
+    left: 0px; top: 3460px;
+}
+
 #grid-container{
-    height: 2000px;
+    height: 3900px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -1957,7 +2006,7 @@ textarea.form-message{
     #o{
         left: 305px; top: 2085px;
     }
-    
+
     #p{
         left: -0px; top: 2350px;
     }
@@ -1968,9 +2017,59 @@ textarea.form-message{
         left: -0px; top:2630;
     }
     
+    #aa{
+        left: -0px; top: 2945px;
+    }
+    #bb{
+        left: 305px; top: 2740px;
+    }
+    #cc{
+        left: -0px; top: 3385px;
+
+    }
+    
+    #dd{
+        left: 305px; top: 3178px;
+    }
+    #ee{
+        left: -0px; top: 3570px;
+    }
+    #ff{
+        left: 305px; top: 3615px;
+    }
+    #gg{
+        left: -0px; top: 3940px;
+    }
+    #hh{
+        left: 305px; top: 4060px;
+    }
+
+    #ii{
+        left: -0px; top: 4240px;
+    }
+    
+    #jj{
+        left: 305px; top: 4425px;
+    }
+    #kk{
+        left: -0px; top: 4610px;
+    }
+    #ll{
+        left: 305px; top: 4760px;
+    }
+    
+    #mm{
+        left: -0px; top: 4845px;
+    }
+    #nn{
+        left: 305px; top:5190px;
+    }
+    #oo{
+        left: -0px; top: 5225px;
+    }
     
 #grid-container{
-        height: 3000px;
+        height: 5600px;
     }
     
     .flex{
@@ -2241,8 +2340,55 @@ textarea.form-message{
         left: 0px; top: 5870px;
     }
     
+    #aa{
+        left: 0px; top: 6210px;
+    }
+    #bb{
+        left: 0px; top: 6700px;
+    }
+    #cc{
+        left: 0px; top: 7190px;
+    }
+    
+    #dd{
+        left: 0px; top: 7390px;
+    }
+    #ee{
+        left: 0px; top: 7880px;
+    }
+    #ff{
+        left: 0px; top: 8288px;
+    }
+    #gg{
+        left: 0px; top: 8778px;
+    }
+    #hh{
+        left: 0px; top: 9106px;
+    }
+    #ii{
+        left: 0px; top: 9514px;
+    }
+    #jj{
+        left: 0px; top: 9920px;
+    }
+    #kk{
+        left: 0px; top: 10300px;
+    }
+    #ll{
+        left: 0px; top: 10550px;
+    }
+    #mm{
+        left: 0px; top: 11029px;
+    }
+    #nn{
+        left: 0px; top: 11460px;
+    }
+    #oo{
+        left: 0px; top: 11898px;
+    }
+
 #grid-container{
-        height: 6300px;
+        height: 12300px;
         width: 320px;
     }
     
